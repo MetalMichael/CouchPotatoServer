@@ -73,15 +73,15 @@ class Base(TorrentMagnetProvider, RSS):
 
 
 config = [{
-    'name': 'torrentz',
+    'name': 'torrentz2',
     'groups': [
         {
             'tab': 'searcher',
             'list': 'torrent_providers',
-            'name': 'Torrentz',
-            'description': 'Torrentz.eu was a free, fast and powerful meta-search engine combining results from dozens of search engines, Torrentz2.eu is trying to replace it. <a href="https://torrentz2.eu/" target="_blank">Torrentz2</a>',
+            'name': 'Torrentz2',
+            'description': 'Torrentz2 a clone of the now defunct Torrentz, a free, fast, and powerful meta-search engine. <a href="https://torrentz2.eu/" target="_blank">Torrentz2</a>',
             'wizard': True,
-            'icon': 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVQ4y2NgAALjtJn/ycEMlGiGG0IVAxiwAKzOxaKGARcgxgC8YNSAwWoAzuRMjgsIugqfAUR5CZcBRIcHsWEAADSA96Ig020yAAAAAElFTkSuQmCC',
+            'icon': 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJ1BMVEUAAAAyZZgyZZgyZJgxZJctYpAyZZkyZZgzZZgzZJgvXpc4VY4zZpm7TKP9AAAADHRSTlMAlOtjSRLjuYVSGgh8bkjBAAAAPElEQVQI12PgOQMGBxjOQAGCcYCBAUgy8DAwQBgMxDOY1SZAGIwhClAprgIogzEAyhCBKuYwgDJ4zpwGAMYRK8GMRvEqAAAAAElFTkSuQmCC',
             'options': [
                 {
                     'name': 'enabled',
