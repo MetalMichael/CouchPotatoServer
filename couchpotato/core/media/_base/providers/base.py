@@ -178,11 +178,11 @@ class YarrProvider(Provider):
 
         self.last_login_check = None
 
-        if self.login_fail_msg and self.login_fail_msg in output:
+        log.error('Failed to login %s: %s', (self.getName(), error))
+
+        if output and self.login_fail_msg and self.login_fail_msg in output:
             error = "Login credentials rejected."
             self.disableAccount()
-
-        log.error('Failed to login %s: %s', (self.getName(), error))
         return False
 
     def loginSuccess(self, output):
